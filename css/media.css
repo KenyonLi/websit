@@ -1,0 +1,56 @@
+/*====小屏幕:手机<768==============================================*/
+@media (max-width: 767px) {
+	/*width,height*/
+    .width-xs-auto{ width:auto !important; float:none !important; margin-right:0 !important}
+	.height-xs-auto{ height:auto !important}
+	.height-xs-auto img{ position:inherit !important; transform:none !important}
+
+    /*text*/
+    .text-xs-left{ text-align:left !important}
+	.text-xs-right{ text-align:right !important}
+    .text-xs-center{ text-align:center !important}
+	.text-xs-none{ text-align:inherit !important}
+
+    /*border*/
+    .border-xs-none{ border:none !important}
+	
+	
+	/*float*/
+	.float-xs-none{ float:none !important}
+	
+	.btn-xs-block{ display:block !important; width:100%}	
+	
+	.mar-xs-none{ margin:0 !important}
+}
+
+
+/*====小屏幕:平板≥768==============================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*width,height*/
+    .width-sm-auto{ width:auto !important; float:none !important; margin-right:0 !important}
+	.height-sm-auto{ height:auto !important}
+	.height-sm-auto img{ position:inherit !important; transform:none !important}
+
+    /*text*/
+    .text-sm-left{ text-align:left !important}
+    .text-sm-center{ text-align:center !important}
+
+    /*border*/
+    .border-sm-none{ border:none !important}
+	
+	.float-sm-none{ float:none !important}
+}
+
+
+/*====中等屏幕:桌面≥992==============================================*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.float-md-none{ float:none !important}
+}
+
+
+
+/*====大屏:桌面≥1200==============================================*/
+@media (min-width: 1200px) {
+ .navbar-toggle{ display:none}
+ .navbar-collapse.collapse{ display:block !important}
+}
